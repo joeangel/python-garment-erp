@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/white"><TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtSenderTitle" android:text="@string/lblSenderTitle" android:textColor="@drawable/black" android:textSize="32sp"></TextView></TableRow>
+<TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/lblSMSNumber" android:text="@string/lblSMSNumber"></TextView><EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtSMSNumber" android:numeric="integer" android:maxWidth="200sp" android:maxLength="10" android:maxLines="1" android:minWidth="210sp"></EditText></TableRow>
+<TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/lblSMSContent" android:text="@string/lblSMSContents"></TextView><EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:minLines="5" android:id="@+id/txtSMSContents" android:maxWidth="200sp" android:minWidth="210sp"></EditText></TableRow>
+
+
+
+
+
+<TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnSMSSend" android:text="@string/btnSMSSend" android:onClick="btnSMSSend_OnClick"></Button></TableRow>
+
+</TableLayout>

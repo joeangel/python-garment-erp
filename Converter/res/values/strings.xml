@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btnPrevious">Previous page</string>
+    <string name="lblSenderCheckTitle">Check SMS contents</string>
+    <string name="btnSMSSend">Send</string>
+    <string name="lblSMSNumber">收訊人：</string>
+    <string name="lblSMSContents">簡訊內容：</string>
+    <string name="lblSenderTitle">Sender</string>
+    <string name="btnSendSMS">Send SMS</string>
+    <string name="lblManagerTitle">SMS Manager</string>
+    <string name="preButtun">Previous Page</string>
+    <string name="nextButton">Next Page</string>
+    
+    <string name="LbLabel">lb:</string>
+    <string name="cvButton">Convert</string>
+    <string name="KgLabel">kg:</string>
+    <string name="hello">Hello World, Converter!</string>
+    <string name="app_name">Converter</string>
+</resources>

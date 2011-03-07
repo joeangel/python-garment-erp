@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/white"><TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtTitle" android:textColor="@drawable/black" android:textStyle="bold" android:textSize="34sp" android:text="@string/lblManagerTitle"></TextView></TableRow>
+<TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center"><ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imgSMS" android:src="@drawable/sms"></ImageView></TableRow><TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnSendSMS" android:text="@string/btnSendSMS" android:onClick="btnSendSMS_OnClick"></Button></TableRow>
+
+
+
+
+</TableLayout>

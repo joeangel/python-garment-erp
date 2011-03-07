@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/white"><TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center"><TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="32sp" android:textColor="@drawable/black" android:text="@string/lblSenderCheckTitle"></TextView></TableRow>
+<TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lblSMSNumber" android:id="@+id/lblSMSNumber2"></TextView></TableRow><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="210px" android:id="@+id/txtSMSNumber2"></TextView>
+<TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lblSMSContents" android:id="@+id/lblSMSContents2"></TextView></TableRow><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtSMSContents2"></TextView>
+<TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content" android:layout_height="wrap_content"></TableRow><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnSubmit" android:text="@string/btnSendSMS" android:onClick="btnSubmit_OnClick"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnReturn" android:text="@string/btnPrevious" android:onClick="btnReturn_OnClick"></Button>
+
+
+
+
+
+
+
+</TableLayout>
