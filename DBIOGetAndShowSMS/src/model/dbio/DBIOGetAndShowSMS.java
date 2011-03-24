@@ -33,10 +33,13 @@ public class DBIOGetAndShowSMS extends Activity {
     // fire(sSMS); // fire's porgram(splite sms string and write to db) call
     // this
     // function
-    // angel(); // angel's program(show sms from database) call this function
+     //angel(); // angel's program(show sms from database) call this function
 
-    String sSMS = "smscar:Angel,0922999666;Jeff,0989333777;";
-    fire_main(sSMS);
+     objFire obj = new objFire();
+     obj.fire("123");
+     
+    //String sSMS = "smscar:Angel,0922999666;Jeff,0989333777;";
+    //fire_main(sSMS);
   }
 
   public void fire_main(String sSMS) {
